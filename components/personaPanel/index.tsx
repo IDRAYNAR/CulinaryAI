@@ -95,13 +95,6 @@ const PersonaPanel = (props: PersonaPanelProps) => {
                 <Typography color="blue-gray" className="font-normal">
                   {prompt.name}
                 </Typography>
-                <Typography
-                  variant="small"
-                  color="gray"
-                  className="font-normal text-ellipsis whitespace-nowrap overflow-hidden"
-                >
-                  {prompt.prompt || ''}
-                </Typography>
               </div>
               <ListItemSuffix className="flex">
                 <Button
