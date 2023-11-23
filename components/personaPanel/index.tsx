@@ -116,34 +116,6 @@ const PersonaPanel = (props: PersonaPanelProps) => {
                   <LuMessageSquarePlus className="h-4 w-4" />
                   Chat
                 </Button>
-                {personaPanelType === 'chat' && (
-                  <Button
-                    variant="text"
-                    size="sm"
-                    color="blue-gray"
-                    className="flex items-center gap-2 px-2"
-                    onClick={() => {
-                      onEditPersona?.(prompt)
-                    }}
-                  >
-                    <AiOutlineEdit className="h-4 w-4" />
-                    Edit
-                  </Button>
-                )}
-                {(prompt.name !== 'Gordon RamsAI' && prompt.name !== 'JAIro Ono' && prompt.name !== 'Philippe EtchebAIst') && (
-                  <Button
-                    variant="text"
-                    size="sm"
-                    color="blue-gray"
-                    className="flex items-center gap-2 px-2"
-                    onClick={() => {
-                      onDeletePersona?.(prompt)
-                    }}
-                  >
-                    <AiOutlineDelete className="h-4 w-4" />
-                    Delete
-                  </Button>
-                )}
               </ListItemSuffix>
             </ListItem>
           ))}
