@@ -80,9 +80,6 @@ const PersonaPanel = (props: PersonaPanelProps) => {
                 setSearchText(target.value)
               }}
             />
-            <Button color="blue-gray" onClick={onOpenPersonaModal}>
-              Create
-            </Button>
           </div>
         </div>
       </div>
