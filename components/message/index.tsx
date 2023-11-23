@@ -1,6 +1,6 @@
 'use client'
 
-import { SiArangodb } from 'react-icons/si'
+import { SiPerl } from 'react-icons/si'
 import { HiOutlineUser } from 'react-icons/hi'
 import cs from 'clsx'
 import Markdown from '../markdown'
@@ -24,7 +24,7 @@ const Message = (props: MessageProps) => {
             isUser ? 'bg-blue-gray-500' : 'bg-black'
           )}
         >
-          {isUser ? <HiOutlineUser className="h-5 w-5" /> : <SiArangodb className="h-5 w-5" />}
+          {isUser ? <HiOutlineUser className="h-5 w-5" /> : <SiPerl className="h-5 w-5" />}
         </div>
         <div className="relative flex-1 min-h-20 markdown break-words overflow-hidden">
           <Markdown content={content} />
