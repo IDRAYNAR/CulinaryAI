@@ -1,2 +1,2 @@
 # CulinaryAI
-Front UI made by @blrchen : https://github.com/blrchen/chatgpt-lite
+Thanks to @blrchen, he made the front UI : https://github.com/blrchen/chatgpt-lite (i reworked the visual to fit my school project)
